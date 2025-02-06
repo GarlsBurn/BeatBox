@@ -50,7 +50,10 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     implementation("androidx.recyclerview:recyclerview:1.4.0")
+    testImplementation(libs.junit.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    testImplementation("org.mockito:mockito-core:5.11.0")
 
 }
