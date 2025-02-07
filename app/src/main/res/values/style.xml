@@ -2,7 +2,10 @@
 <resources>
 
     <style name="BeatBoxButton" parent="Widget.MaterialComponents.Button">
-        <item name="backgroundTint">@color/dark_blue</item>
+        <item name="android:background">@drawable/button_beat_box</item>
+        <item name="backgroundTint">@null</item>
+        <item name="backgroundTintMode">screen</item>
+
     </style>
 
     <style name="BeatBoxButton.Strong">
